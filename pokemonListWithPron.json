@@ -57,7 +57,7 @@
     "game_index": "010",
     "name_ja": "キャタピー",
     "name_en": "Caterpie",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"キャタ'ピー\">キャタピー</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"キャ'タピィ\">キャタピー</phoneme></prosody>"
   },
   {
     "game_index": "011",
@@ -663,7 +663,7 @@
     "game_index": "111",
     "name_ja": "サイホーン",
     "name_en": "Rhyhorn",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"サイホ'ーン\">サイホーン</phoneme></prosody>"
+    "pron": "<prosody rate=\"slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"サイホ'ーン\">サイホーン</phoneme></prosody>"
   },
   {
     "game_index": "112",
