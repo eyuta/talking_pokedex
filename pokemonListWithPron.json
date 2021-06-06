@@ -2319,79 +2319,79 @@
     "game_index": "387",
     "name_ja": "ナエトル",
     "name_en": "Turtwig",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ナエトル\">ナエトル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ナ'エトル\">ナエトル</phoneme></prosody>"
   },
   {
     "game_index": "388",
     "name_ja": "ハヤシガメ",
     "name_en": "Grotle",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ハヤシガメ\">ハヤシガメ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ハヤシ'ガメ\">ハヤシガメ</phoneme></prosody>"
   },
   {
     "game_index": "389",
     "name_ja": "ドダイトス",
     "name_en": "Torterra",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドダイトス\">ドダイトス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドダイ'トス\">ドダイトス</phoneme></prosody>"
   },
   {
     "game_index": "390",
     "name_ja": "ヒコザル",
     "name_en": "Chimchar",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ヒコザル\">ヒコザル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ヒ'コ ザル\">ヒコザル</phoneme></prosody>"
   },
   {
     "game_index": "391",
     "name_ja": "モウカザル",
     "name_en": "Monferno",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"モウカザル\">モウカザル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"モウカ'ザル\">モウカザル</phoneme></prosody>"
   },
   {
     "game_index": "392",
     "name_ja": "ゴウカザル",
     "name_en": "Infernape",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ゴウカザル\">ゴウカザル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ゴウカ'ザル\">ゴウカザル</phoneme></prosody>"
   },
   {
     "game_index": "393",
     "name_ja": "ポッチャマ",
     "name_en": "Piplup",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ポッチャマ\">ポッチャマ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ポ'ッチャマ\">ポッチャマ</phoneme></prosody>"
   },
   {
     "game_index": "394",
     "name_ja": "ポッタイシ",
     "name_en": "Prinplup",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ポッタイシ\">ポッタイシ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ポッタ'イシ\">ポッタイシ</phoneme></prosody>"
   },
   {
     "game_index": "395",
     "name_ja": "エンペルト",
     "name_en": "Empoleon",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"エンペルト\">エンペルト</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"エンペ'ルト\">エンペルト</phoneme></prosody>"
   },
   {
     "game_index": "396",
     "name_ja": "ムックル",
     "name_en": "Starly",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ムックル\">ムックル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ム'ックル\">ムックル</phoneme></prosody>"
   },
   {
     "game_index": "397",
     "name_ja": "ムクバード",
     "name_en": "Staravia",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ムクバード\">ムクバード</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ムクバ'ード\">ムクバード</phoneme></prosody>"
   },
   {
     "game_index": "398",
     "name_ja": "ムクホーク",
     "name_en": "Staraptor",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ムクホーク\">ムクホーク</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ムクホ'ーク\">ムクホーク</phoneme></prosody>"
   },
   {
     "game_index": "399",
     "name_ja": "ビッパ",
     "name_en": "Bidoof",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ビッパ\">ビッパ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ビ'ッパ\">ビッパ</phoneme></prosody>"
   },
   {
     "game_index": "400",
@@ -2403,19 +2403,19 @@
     "game_index": "401",
     "name_ja": "コロボーシ",
     "name_en": "Kricketot",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"コロボーシ\">コロボーシ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"コロボ'ーシ\">コロボーシ</phoneme></prosody>"
   },
   {
     "game_index": "402",
     "name_ja": "コロトック",
     "name_en": "Kricketune",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"コロトック\">コロトック</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"コロト'ック\">コロトック</phoneme></prosody>"
   },
   {
     "game_index": "403",
     "name_ja": "コリンク",
     "name_en": "Shinx",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"コリンク\">コリンク</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"コリ'ンク\">コリンク</phoneme></prosody>"
   },
   {
     "game_index": "404",
@@ -2427,49 +2427,49 @@
     "game_index": "405",
     "name_ja": "レントラー",
     "name_en": "Luxray",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"レントラー\">レントラー</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"レ'ントラー\">レントラー</phoneme></prosody>"
   },
   {
     "game_index": "406",
     "name_ja": "スボミー",
     "name_en": "Budew",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"スボミー\">スボミー</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ス'ボミー\">スボミー</phoneme></prosody>"
   },
   {
     "game_index": "407",
     "name_ja": "ロズレイド",
     "name_en": "Roserade",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ロズレイド\">ロズレイド</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ロズレ'イド\">ロズレイド</phoneme></prosody>"
   },
   {
     "game_index": "408",
     "name_ja": "ズガイドス",
     "name_en": "Cranidos",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ズガイドス\">ズガイドス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ズガイ'ドス\">ズガイドス</phoneme></prosody>"
   },
   {
     "game_index": "409",
     "name_ja": "ラムパルド",
     "name_en": "Rampardos",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ラムパルド\">ラムパルド</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ラムパ'ルド\">ラムパルド</phoneme></prosody>"
   },
   {
     "game_index": "410",
     "name_ja": "タテトプス",
     "name_en": "Shieldon",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"タテトプス\">タテトプス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"タテト'プス\">タテトプス</phoneme></prosody>"
   },
   {
     "game_index": "411",
     "name_ja": "トリデプス",
     "name_en": "Bastiodon",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"トリデプス\">トリデプス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"トリデ'プス\">トリデプス</phoneme></prosody>"
   },
   {
     "game_index": "412",
     "name_ja": "ミノムッチ",
     "name_en": "Burmy",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ミノムッチ\">ミノムッチ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ミノム'ッチ\">ミノムッチ</phoneme></prosody>"
   },
   {
     "game_index": "413",
@@ -2481,145 +2481,145 @@
     "game_index": "414",
     "name_ja": "ガーメイル",
     "name_en": "Mothim",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ガーメイル\">ガーメイル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ガーメ'イル\">ガーメイル</phoneme></prosody>"
   },
   {
     "game_index": "415",
     "name_ja": "ミツハニー",
     "name_en": "Combee",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ミツハニー\">ミツハニー</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ミツハ'ニー\">ミツハニー</phoneme></prosody>"
   },
   {
     "game_index": "416",
     "name_ja": "ビークイン",
     "name_en": "Vespiquen",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ビークイン\">ビークイン</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ビ'ークイン\">ビークイン</phoneme></prosody>"
   },
   {
     "game_index": "417",
     "name_ja": "パチリス",
     "name_en": "Pachirisu",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"パチリス\">パチリス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"パ'チリス\">パチリス</phoneme></prosody>"
   },
   {
     "game_index": "418",
     "name_ja": "ブイゼル",
     "name_en": "Buizel",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ブイゼル\">ブイゼル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ブ'イゼル\">ブイゼル</phoneme></prosody>"
   },
   {
     "game_index": "419",
     "name_ja": "フローゼル",
     "name_en": "Floatzel",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"フローゼル\">フローゼル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"フロ'ーゼル\">フローゼル</phoneme></prosody>"
   },
   {
     "game_index": "420",
     "name_ja": "チェリンボ",
     "name_en": "Cherubi",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"チェリンボ\">チェリンボ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"チェリ'ンボ\">チェリンボ</phoneme></prosody>"
   },
   {
     "game_index": "421",
     "name_ja": "チェリム",
     "name_en": "Cherrim",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"チェリム\">チェリム</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"チェ'リム\">チェリム</phoneme></prosody>"
   },
   {
     "game_index": "422",
     "name_ja": "カラナクシ",
     "name_en": "Shellos",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"カラナクシ\">カラナクシ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"カラナ'クシ\">カラナクシ</phoneme></prosody>"
   },
   {
     "game_index": "423",
     "name_ja": "トリトドン",
     "name_en": "Gastrodon",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"トリトドン\">トリトドン</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"トリト'ドン\">トリトドン</phoneme></prosody>"
   },
   {
     "game_index": "424",
     "name_ja": "エテボース",
     "name_en": "Ambipom",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"エテボース\">エテボース</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"エテボ'ース\">エテボース</phoneme></prosody>"
   },
   {
     "game_index": "425",
     "name_ja": "フワンテ",
     "name_en": "Drifloon",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"フワンテ\">フワンテ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"フワ'ンテ\">フワンテ</phoneme></prosody>"
   },
   {
     "game_index": "426",
     "name_ja": "フワライド",
     "name_en": "Drifblim",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"フワライド\">フワライド</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"フワラ'イド\">フワライド</phoneme></prosody>"
   },
   {
     "game_index": "427",
     "name_ja": "ミミロル",
     "name_en": "Buneary",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ミミロル\">ミミロル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ミ'ミロル\">ミミロル</phoneme></prosody>"
   },
   {
     "game_index": "428",
     "name_ja": "ミミロップ",
     "name_en": "Lopunny",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ミミロップ\">ミミロップ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ミミロ'ップ\">ミミロップ</phoneme></prosody>"
   },
   {
     "game_index": "429",
     "name_ja": "ムウマージ",
     "name_en": "Mismagius",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ムウマージ\">ムウマージ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ムウマ'ージ\">ムウマージ</phoneme></prosody>"
   },
   {
     "game_index": "430",
     "name_ja": "ドンカラス",
     "name_en": "Honchkrow",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドンカラス\">ドンカラス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドンカ'ラス\">ドンカラス</phoneme></prosody>"
   },
   {
     "game_index": "431",
     "name_ja": "ニャルマー",
     "name_en": "Glameow",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ニャルマー\">ニャルマー</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ニャ'ルマー\">ニャルマー</phoneme></prosody>"
   },
   {
     "game_index": "432",
     "name_ja": "ブニャット",
     "name_en": "Purugly",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ブニャット\">ブニャット</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ブニャ'ット\">ブニャット</phoneme></prosody>"
   },
   {
     "game_index": "433",
     "name_ja": "リーシャン",
     "name_en": "Chingling",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"リーシャン\">リーシャン</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"リ'イシャン\">リーシャン</phoneme></prosody>"
   },
   {
     "game_index": "434",
     "name_ja": "スカンプー",
     "name_en": "Stunky",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"スカンプー\">スカンプー</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"スカ'ンプー\">スカンプー</phoneme></prosody>"
   },
   {
     "game_index": "435",
     "name_ja": "スカタンク",
     "name_en": "Skuntank",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"スカタンク\">スカタンク</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"スカタ'ンク\">スカタンク</phoneme></prosody>"
   },
   {
     "game_index": "436",
     "name_ja": "ドーミラー",
     "name_en": "Bronzor",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドーミラー\">ドーミラー</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ド'ーミラー\">ドーミラー</phoneme></prosody>"
   },
   {
     "game_index": "437",
     "name_ja": "ドータクン",
     "name_en": "Bronzong",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドータクン\">ドータクン</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ド'ータクン\">ドータクン</phoneme></prosody>"
   },
   {
     "game_index": "438",
@@ -2631,25 +2631,25 @@
     "game_index": "439",
     "name_ja": "マネネ",
     "name_en": "Mime Jr.",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"マネネ\">マネネ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"マ'ネ ネ'\">マネネ</phoneme></prosody>"
   },
   {
     "game_index": "440",
     "name_ja": "ピンプク",
     "name_en": "Happiny",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ピンプク\">ピンプク</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ピ'ンプク\">ピンプク</phoneme></prosody>"
   },
   {
     "game_index": "441",
     "name_ja": "ペラップ",
     "name_en": "Chatot",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ペラップ\">ペラップ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ペラ'ップ\">ペラップ</phoneme></prosody>"
   },
   {
     "game_index": "442",
     "name_ja": "ミカルゲ",
     "name_en": "Spiritomb",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ミカルゲ\">ミカルゲ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ミカ'ルゲ\">ミカルゲ</phoneme></prosody>"
   },
   {
     "game_index": "443",
@@ -2661,199 +2661,199 @@
     "game_index": "444",
     "name_ja": "ガバイト",
     "name_en": "Gabite",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ガバイト\">ガバイト</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ガバ'イト\">ガバイト</phoneme></prosody>"
   },
   {
     "game_index": "445",
     "name_ja": "ガブリアス",
     "name_en": "Garchomp",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ガブリアス\">ガブリアス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ガブリ'アス\">ガブリアス</phoneme></prosody>"
   },
   {
     "game_index": "446",
     "name_ja": "ゴンベ",
     "name_en": "Munchlax",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ゴンベ\">ゴンベ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ゴ'ンベ\">ゴンベ</phoneme></prosody>"
   },
   {
     "game_index": "447",
     "name_ja": "リオル",
     "name_en": "Riolu",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"リオル\">リオル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"リ'オル\">リオル</phoneme></prosody>"
   },
   {
     "game_index": "448",
     "name_ja": "ルカリオ",
     "name_en": "Lucario",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ルカリオ\">ルカリオ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ルカ'リオ\">ルカリオ</phoneme></prosody>"
   },
   {
     "game_index": "449",
     "name_ja": "ヒポポタス",
     "name_en": "Hippopotas",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ヒポポタス\">ヒポポタス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ヒポポ'タス\">ヒポポタス</phoneme></prosody>"
   },
   {
     "game_index": "450",
     "name_ja": "カバルドン",
     "name_en": "Hippowdon",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"カバルドン\">カバルドン</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"カバル'ドン\">カバルドン</phoneme></prosody>"
   },
   {
     "game_index": "451",
     "name_ja": "スコルピ",
     "name_en": "Skorupi",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"スコルピ\">スコルピ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"スコ'ルピ\">スコルピ</phoneme></prosody>"
   },
   {
     "game_index": "452",
     "name_ja": "ドラピオン",
     "name_en": "Drapion",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドラピオン\">ドラピオン</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドラ'ピオン\">ドラピオン</phoneme></prosody>"
   },
   {
     "game_index": "453",
     "name_ja": "グレッグル",
     "name_en": "Croagunk",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"グレッグル\">グレッグル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"グレ'ッグル\">グレッグル</phoneme></prosody>"
   },
   {
     "game_index": "454",
     "name_ja": "ドクロッグ",
     "name_en": "Toxicroak",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドクロッグ\">ドクロッグ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドクロ'ッグ\">ドクロッグ</phoneme></prosody>"
   },
   {
     "game_index": "455",
     "name_ja": "マスキッパ",
     "name_en": "Carnivine",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"マスキッパ\">マスキッパ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"マスキ'ッパ\">マスキッパ</phoneme></prosody>"
   },
   {
     "game_index": "456",
     "name_ja": "ケイコウオ",
     "name_en": "Finneon",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ケイコウオ\">ケイコウオ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ケイコ'ウオ\">ケイコウオ</phoneme></prosody>"
   },
   {
     "game_index": "457",
     "name_ja": "ネオラント",
     "name_en": "Lumineon",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ネオラント\">ネオラント</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ネオラ'ント\">ネオラント</phoneme></prosody>"
   },
   {
     "game_index": "458",
     "name_ja": "タマンタ",
     "name_en": "Mantyke",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"タマンタ\">タマンタ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"タマ'ンタ\">タマンタ</phoneme></prosody>"
   },
   {
     "game_index": "459",
     "name_ja": "ユキカブリ",
     "name_en": "Snover",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ユキカブリ\">ユキカブリ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ユキカ'ブリ\">ユキカブリ</phoneme></prosody>"
   },
   {
     "game_index": "460",
     "name_ja": "ユキノオー",
     "name_en": "Abomasnow",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ユキノオー\">ユキノオー</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ユキノ'オー\">ユキノオー</phoneme></prosody>"
   },
   {
     "game_index": "461",
     "name_ja": "マニューラ",
     "name_en": "Weavile",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"マニューラ\">マニューラ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"マニュ'ウラ\">マニューラ</phoneme></prosody>"
   },
   {
     "game_index": "462",
     "name_ja": "ジバコイル",
     "name_en": "Magnezone",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ジバコイル\">ジバコイル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ジバコ'イル\">ジバコイル</phoneme></prosody>"
   },
   {
     "game_index": "463",
     "name_ja": "ベロベルト",
     "name_en": "Lickilicky",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ベロベルト\">ベロベルト</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ベロベ'ルト\">ベロベルト</phoneme></prosody>"
   },
   {
     "game_index": "464",
     "name_ja": "ドサイドン",
     "name_en": "Rhyperior",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドサイドン\">ドサイドン</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ドサ'イドン\">ドサイドン</phoneme></prosody>"
   },
   {
     "game_index": "465",
     "name_ja": "モジャンボ",
     "name_en": "Tangrowth",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"モジャンボ\">モジャンボ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"モジャ'ンボ\">モジャンボ</phoneme></prosody>"
   },
   {
     "game_index": "466",
     "name_ja": "エレキブル",
     "name_en": "Electivire",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"エレキブル\">エレキブル</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"エレキ'ブル\">エレキブル</phoneme></prosody>"
   },
   {
     "game_index": "467",
     "name_ja": "ブーバーン",
     "name_en": "Magmortar",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ブーバーン\">ブーバーン</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ブーバ'ーン\">ブーバーン</phoneme></prosody>"
   },
   {
     "game_index": "468",
     "name_ja": "トゲキッス",
     "name_en": "Togekiss",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"トゲキッス\">トゲキッス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"トゲキ'ッス\">トゲキッス</phoneme></prosody>"
   },
   {
     "game_index": "469",
     "name_ja": "メガヤンマ",
     "name_en": "Yanmega",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"メガヤンマ\">メガヤンマ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"メガヤ'ンマ\">メガヤンマ</phoneme></prosody>"
   },
   {
     "game_index": "470",
     "name_ja": "リーフィア",
     "name_en": "Leafeon",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"リーフィア\">リーフィア</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"リ'ーフィア\">リーフィア</phoneme></prosody>"
   },
   {
     "game_index": "471",
     "name_ja": "グレイシア",
     "name_en": "Glaceon",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"グレイシア\">グレイシア</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"グレ'イシア\">グレイシア</phoneme></prosody>"
   },
   {
     "game_index": "472",
     "name_ja": "グライオン",
     "name_en": "Gliscor",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"グライオン\">グライオン</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"グラ'イオン\">グライオン</phoneme></prosody>"
   },
   {
     "game_index": "473",
     "name_ja": "マンムー",
     "name_en": "Mamoswine",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"マンムー\">マンムー</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"マ'ンムー\">マンムー</phoneme></prosody>"
   },
   {
     "game_index": "474",
     "name_ja": "ポリゴンZ",
     "name_en": "Porygon-Z",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ポリゴンZ\">ポリゴンZ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ポ'リゴン ゼ'ット\">ポリゴンZ</phoneme></prosody>"
   },
   {
     "game_index": "475",
     "name_ja": "エルレイド",
     "name_en": "Gallade",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"エルレイド\">エルレイド</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"エルレ'イド\">エルレイド</phoneme></prosody>"
   },
   {
     "game_index": "476",
     "name_ja": "ダイノーズ",
     "name_en": "Probopass",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ダイノーズ\">ダイノーズ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ダイノ'ーズ\">ダイノーズ</phoneme></prosody>"
   },
   {
     "game_index": "477",
@@ -2865,55 +2865,55 @@
     "game_index": "478",
     "name_ja": "ユキメノコ",
     "name_en": "Froslass",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ユキメノコ\">ユキメノコ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ユキメ'ノコ\">ユキメノコ</phoneme></prosody>"
   },
   {
     "game_index": "479",
     "name_ja": "ロトム",
     "name_en": "Rotom",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ロトム\">ロトム</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ロ'トム\">ロトム</phoneme></prosody>"
   },
   {
     "game_index": "480",
     "name_ja": "ユクシー",
     "name_en": "Uxie",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ユクシー\">ユクシー</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ユ'クシー\">ユクシー</phoneme></prosody>"
   },
   {
     "game_index": "481",
     "name_ja": "エムリット",
     "name_en": "Mesprit",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"エムリット\">エムリット</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"エ'ムリット\">エムリット</phoneme></prosody>"
   },
   {
     "game_index": "482",
     "name_ja": "アグノム",
     "name_en": "Azelf",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"アグノム\">アグノム</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ア'グノム\">アグノム</phoneme></prosody>"
   },
   {
     "game_index": "483",
     "name_ja": "ディアルガ",
     "name_en": "Dialga",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ディアルガ\">ディアルガ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ディア'ルガ\">ディアルガ</phoneme></prosody>"
   },
   {
     "game_index": "484",
     "name_ja": "パルキア",
     "name_en": "Palkia",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"パルキア\">パルキア</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"パル'キア\">パルキア</phoneme></prosody>"
   },
   {
     "game_index": "485",
     "name_ja": "ヒードラン",
     "name_en": "Heatran",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ヒードラン\">ヒードラン</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ヒ'ードラン\">ヒードラン</phoneme></prosody>"
   },
   {
     "game_index": "486",
     "name_ja": "レジギガス",
     "name_en": "Regigigas",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"レジギガス\">レジギガス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"レジギ'ガス\">レジギガス</phoneme></prosody>"
   },
   {
     "game_index": "487",
@@ -2925,37 +2925,37 @@
     "game_index": "488",
     "name_ja": "クレセリア",
     "name_en": "Cresselia",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"クレセリア\">クレセリア</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"クレセ'リア\">クレセリア</phoneme></prosody>"
   },
   {
     "game_index": "489",
     "name_ja": "フィオネ",
     "name_en": "Phione",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"フィオネ\">フィオネ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"フィ'オネ\">フィオネ</phoneme></prosody>"
   },
   {
     "game_index": "490",
     "name_ja": "マナフィ",
     "name_en": "Manaphy",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"マナフィ\">マナフィ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"マ'ナフィー\">マナフィ</phoneme></prosody>"
   },
   {
     "game_index": "491",
     "name_ja": "ダークライ",
     "name_en": "Darkrai",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ダークライ\">ダークライ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"ダ'ークライ\">ダークライ</phoneme></prosody>"
   },
   {
     "game_index": "492",
     "name_ja": "シェイミ",
     "name_en": "Shaymin",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"シェイミ\">シェイミ</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"シェ'イミ\">シェイミ</phoneme></prosody>"
   },
   {
     "game_index": "493",
     "name_ja": "アルセウス",
     "name_en": "Arceus",
-    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"アルセウス\">アルセウス</phoneme></prosody>"
+    "pron": "<prosody rate=\"x-slow\"><phoneme alphabet=\"x-amazon-pron-kana\" ph=\"アルセ'ウス\">アルセウス</phoneme></prosody>"
   },
   {
     "game_index": "494",
