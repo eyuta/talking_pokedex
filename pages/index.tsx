@@ -21,7 +21,7 @@ export default function Home() {
         title="Talking Pokédex"
         description="しゃべるポケモン図鑑"
         image="/og_image.PNG"
-        url={location.href}
+        url="/"
       />
       <main className={styles.main}>
         <Center>
