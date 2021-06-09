@@ -1,4 +1,3 @@
-import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 // import Pokedex from "pokedex-promise-v2";
@@ -11,18 +10,19 @@ import { FixedSizeGrid as Grid } from "react-window";
 import { Heading, Center } from "@chakra-ui/react";
 import PokemonItem from "@/components/PokemonItem";
 import { getGridSize } from "@/utils/useWindowDimensions";
-
+import Head from "@/components/Head";
 const pokemonCount = pokemonList.length;
 
 export default function Home() {
   const { columnCount, columnWidth, rowHeight } = getGridSize();
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Talking Pokedex</title>
-        <meta name="description" content="Talking Pokedex" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head
+        title="Talking Pokédex"
+        description="しゃべるポケモン図鑑"
+        image="/og_image.PNG"
+        url={location.href}
+      />
       <main className={styles.main}>
         <Center>
           <Heading mb={5}>ポケモンをクリック！</Heading>
