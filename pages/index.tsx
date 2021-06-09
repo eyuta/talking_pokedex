@@ -20,8 +20,8 @@ export default function Home() {
       <Head
         title="Talking Pokédex"
         description="しゃべるポケモン図鑑"
-        image="/og_image.PNG"
-        url="/"
+        image={typeof location === "undefined" ? "" : location.origin + "/og_image.PNG"}
+        url={typeof location === "undefined" ? "" : location.origin}
       />
       <main className={styles.main}>
         <Center>
