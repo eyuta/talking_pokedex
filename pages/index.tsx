@@ -1,42 +1,21 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
-import { GetStaticProps } from 'next'
-import Pokedex from 'pokedex-promise-v2';
-import { Pokemon } from '../pokedex-promise-v2.types'
-import { pokemonList } from '@/data/pokemonList'
-import { useEffect } from 'react';
-
+// import Pokedex from "pokedex-promise-v2";
+// import { Pokemon } from "../pokedex-promise-v2.types";
+import { pokemonList } from "@/data/pokemonList";
 
 import AutoSizer from "react-virtualized-auto-sizer";
-import { FixedSizeGrid as Grid } from 'react-window';
+import { FixedSizeGrid as Grid } from "react-window";
 
-const pokemonCount = pokemonList.length
-const imageSize = 3
+import { Heading, Center } from "@chakra-ui/react";
+import PokemonItem from "@/components/PokemonItem";
+import { getGridSize } from "@/utils/useWindowDimensions";
 
+const pokemonCount = pokemonList.length;
 
-const getImagePath = (index: number) => `/pokemonImages/475/webp/${index}.webp`
-
-const PokemonImage = (path: string,onClick: () => any) =>
-  <Image src={path} alt="me" width="100%" height="100%" onClick={onClick} />
-
-
-const generateRow = (speech: ReturnType<typeof getSpeechInstance>) => ({ columnIndex,rowIndex,style }) => {
-  const index = rowIndex * imageSize + columnIndex + 1
-  const pokemon = pokemonList[index - 1]
-  const speechName = () => speech(pokemon.name_ja)
-  const Content = pokemon ? PokemonImage(getImagePath(index),speechName) : <></>
-  return (
-    <div style={style}>{Content}</div>
-  )
-}
-
-export default function Home(props: { data: { name: string } }) {
-  useEffect(() => {
-    speechSynthesis
-  },[]);
-  const speech = getSpeechInstance()
+export default function Home() {
+  const { columnCount, columnWidth, rowHeight } = getGridSize();
   return (
     <div className={styles.container}>
       <Head>
@@ -45,75 +24,24 @@ export default function Home(props: { data: { name: string } }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        test: {JSON.stringify(props)}
-        <button onClick={() => speech(props.data.name)}>test</button>
+        <Center>
+          <Heading mb={5}>ポケモンをクリック！</Heading>
+        </Center>
         <AutoSizer>
-          {({ height,width }) => (
+          {({ height, width }) => (
             <Grid
-              columnCount={3}
-              columnWidth={100}
+              columnCount={columnCount}
+              columnWidth={columnWidth}
               height={height}
-              rowCount={pokemonCount / 3}
-              rowHeight={100}
+              rowCount={pokemonCount / columnCount}
+              rowHeight={rowHeight}
               width={width}
             >
-              {generateRow(speech)}
+              {PokemonItem}
             </Grid>
           )}
         </AutoSizer>
       </main>
     </div>
-  )
+  );
 }
-
-
-
-
-export const getStaticProps: GetStaticProps = async context => {
-
-  // const res = await fetch(`https://.../data`)
-  // const data = await res.json()
-  var P = new Pokedex();
-  P.getPokemonByName(800,function (response: Pokemon,error: Error) { // with callback
-    if (!error) {
-      response.sprites.versions
-      console.log(JSON.stringify(pokemonList[800]));
-
-    } else {
-      console.log(error)
-    }
-  });
-  const data = { name: pokemonList[800].name_ja }
-  if (!data) {
-    return {
-      notFound: true,
-    }
-  }
-  return {
-    props: { data }, // will be passed to the page component as props
-  }
-}
-
-
-const loadVoice = function () {
-  console.log('async',window.speechSynthesis.getVoices())
-};
-
-export const getSpeechInstance = () => {
-  if (typeof window === "undefined") return;
-
-  let utterance: SpeechSynthesisUtterance;
-
-  return (text: string) => {
-    if (!utterance) {
-      utterance = new SpeechSynthesisUtterance();
-      utterance.rate = 0.8;
-      utterance.voice = speechSynthesis
-        .getVoices()
-        .filter((voice) => voice.lang == "ja-JP")[0];
-    }
-    utterance.text = text;
-    speechSynthesis.speak(utterance);
-  };
-};
-
