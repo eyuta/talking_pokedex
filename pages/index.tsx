@@ -33,7 +33,7 @@ export default function Home() {
               columnCount={columnCount}
               columnWidth={columnWidth}
               height={height}
-              rowCount={pokemonCount / columnCount}
+              rowCount={Math.ceil(pokemonCount / columnCount)}
               rowHeight={rowHeight}
               width={width}
             >
