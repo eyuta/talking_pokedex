@@ -39,10 +39,10 @@ export const getGridSize = () => {
   const columnCount = width < breakpoints.md ? 2 : width < breakpoints.lg ? 4 : 5;
   const columnWidth = innerWidth / columnCount;
   const rowHeight = columnWidth + 40
-  console.log("width\t",width)
-  console.log("innerWidth\t",innerWidth)
-  console.log("columnCount\t",columnCount)
-  console.log("columnWidth\t",columnWidth)
-  console.log("rowHeight\t",rowHeight)
+  // console.log("width\t",width)
+  // console.log("innerWidth\t",innerWidth)
+  // console.log("columnCount\t",columnCount)
+  // console.log("columnWidth\t",columnWidth)
+  // console.log("rowHeight\t",rowHeight)
   return { columnCount, columnWidth, rowHeight };
 };
