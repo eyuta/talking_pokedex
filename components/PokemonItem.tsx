@@ -13,11 +13,11 @@ const PokemonImage = (path: string, onClick: () => any) => (
 const Item = ({ columnIndex, rowIndex, style }) => {
   const index = rowIndex * getGridSize().columnCount + columnIndex + 1;
   const pokemon = pokemonList[index - 1];
-  const name = pokemon ? pokemon.name_ja : ""
+  const name = pokemon ? pokemon.name_ja : "";
 
   return (
     <div style={style}>
-      <Box w="100%" onClick={ () => speech(index)}>
+      <Box w="100%" onClick={() => speech(index)}>
         {pokemon ? (
           <Image
             src={getImagePath(index)}
