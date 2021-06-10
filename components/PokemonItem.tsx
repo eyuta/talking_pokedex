@@ -6,10 +6,6 @@ import { getGridSize } from "@/utils/useWindowDimensions";
 
 const getImagePath = (index: number) => `/pokemonImages/475/webp/${index}.webp`;
 
-const PokemonImage = (path: string, onClick: () => any) => (
-  <Image src={path} alt="me" width={"100%"} height={"auto"} onClick={onClick} />
-);
-
 const Item = ({ columnIndex, rowIndex, style }) => {
   const index = rowIndex * getGridSize().columnCount + columnIndex + 1;
   const pokemon = pokemonList[index - 1];
