@@ -13,6 +13,7 @@ const PokemonImage = (path: string, onClick: () => any) => (
 const Item = ({ columnIndex, rowIndex, style }) => {
   const index = rowIndex * getGridSize().columnCount + columnIndex + 1;
   const pokemon = pokemonList[index - 1];
+  const name = pokemon ? pokemon.name_ja : ""
 
   return (
     <div style={style}>
@@ -20,7 +21,7 @@ const Item = ({ columnIndex, rowIndex, style }) => {
         {pokemon ? (
           <Image
             src={getImagePath(index)}
-            alt={pokemon.name_ja}
+            alt={name}
             width={"100%"}
             height={"auto"}
           />
@@ -28,7 +29,7 @@ const Item = ({ columnIndex, rowIndex, style }) => {
           <></>
         )}
         <Center>
-          <Heading mb={5}>{pokemon.name_ja}</Heading>
+          <Heading mb={5}>{name}</Heading>
         </Center>
       </Box>
     </div>
