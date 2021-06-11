@@ -1,4 +1,4 @@
-import { pokemonList } from "@/data/pokemonList";
+import { pokemonList } from "@/data/dist/pokemonList";
 
 import { Heading, Image, Box, Center } from "@chakra-ui/react";
 import { Howl } from "howler";
@@ -43,7 +43,7 @@ const Item = ({
           <></>
         )}
         <Center>
-          <Heading mb={5}>{name}</Heading>
+          <Heading mb={6}>{name}</Heading>
         </Center>
       </Box>
     </div>

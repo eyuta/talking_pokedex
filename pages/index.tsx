@@ -2,7 +2,7 @@ import styles from "../styles/Home.module.css";
 
 // import Pokedex from "pokedex-promise-v2";
 // import { Pokemon } from "../pokedex-promise-v2.types";
-import { pokemonList } from "@/data/pokemonList";
+import { pokemonList } from "@/data/dist/pokemonList";
 
 import AutoSizer from "react-virtualized-auto-sizer";
 import { FixedSizeGrid as Grid } from "react-window";
