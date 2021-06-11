@@ -5,10 +5,19 @@ import { Howl } from "howler";
 import { getGridSize } from "@/utils/useWindowDimensions";
 import { useState } from "react";
 
-const getImagePath = (index: number) => `/pokemonImages/475/webp/${index}.webp`;
+const getImagePath = (filename: string) => `/pokemonImages/475/webp/${filename}.webp`;
 
-const Item = ({ columnIndex, rowIndex, style }) => {
+const Item = ({
+  columnIndex,
+  rowIndex,
+  style,
+}: {
+  columnIndex: number;
+  rowIndex: number;
+  style: object;
+}) => {
   const index = rowIndex * getGridSize().columnCount + columnIndex + 1;
+  const filename = String(index).padStart(3, "0");
   const pokemon = pokemonList[index - 1];
   const name = pokemon ? pokemon.name_ja : "";
 
@@ -16,7 +25,7 @@ const Item = ({ columnIndex, rowIndex, style }) => {
   const playSound = async () => {
     if (playing) return;
     setPlaying(true);
-    await speech(index);
+    await speech(filename);
     setPlaying(false);
   };
 
@@ -25,7 +34,7 @@ const Item = ({ columnIndex, rowIndex, style }) => {
       <Box w="100%" onClick={playSound}>
         {pokemon ? (
           <Image
-            src={getImagePath(index)}
+            src={getImagePath(filename)}
             alt={name}
             width={"100%"}
             height={"auto"}
@@ -41,10 +50,10 @@ const Item = ({ columnIndex, rowIndex, style }) => {
   );
 };
 
-const speech = (index: number) =>
+const speech = (filename: string) =>
   new Promise<void>((resolve) => {
     new Howl({
-      src: [`/pron/${index}.mp3`],
+      src: [`/pron/${filename}.mp3`],
       autoplay: true,
       onend() {
         resolve();
