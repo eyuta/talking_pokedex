@@ -36,9 +36,9 @@ export const getGridSize = () => {
   };
   const { width } = useWindowDimensions();
   const innerWidth = width - 8 * 2;
-  const columnCount = width < breakpoints.md ? 2 : width < breakpoints.lg ? 4 : 5;
+  const columnCount = width < breakpoints.md ? 1 : width < breakpoints.xl ? 2 : 3;
   const columnWidth = innerWidth / columnCount;
-  const rowHeight = columnWidth + 40
+  const rowHeight = columnWidth * 0.4
   // console.log("width\t",width)
   // console.log("innerWidth\t",innerWidth)
   // console.log("columnCount\t",columnCount)

@@ -11,6 +11,7 @@ import { Heading, Center } from "@chakra-ui/react";
 import PokemonItem from "@/components/PokemonItem";
 import { getGridSize } from "@/utils/useWindowDimensions";
 import Head from "@/components/Head";
+
 const pokemonCount = pokemonList.length;
 
 export default function Home() {

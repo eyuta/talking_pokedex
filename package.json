@@ -5,13 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "tsc:watch": "sh -c 'npx tsc-watch data/${0}.ts  --outDir data/dist --onSuccess \"node data/dist/${0}.js\"'"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.13",
     "@chakra-ui/react": "^1.6.3",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
     "framer-motion": "^4",
     "howler": "^2.2.1",
     "next": "10.2.2",
@@ -24,9 +28,12 @@
   },
   "devDependencies": {
     "@types/howler": "^2.2.2",
-    "@types/node": "^15.6.0",
+    "@types/jsdom": "^16.2.11",
+    "@types/node": "^15.12.2",
     "@types/react": "^17.0.6",
     "@types/react-window": "^1.8.3",
-    "typescript": "^4.2.4"
+    "jsdom": "^16.6.0",
+    "tsc-watch": "^4.4.0",
+    "typescript": "^4.3.2"
   }
 }

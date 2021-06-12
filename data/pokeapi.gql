@@ -1,0 +1,13 @@
+# Get all Pokemon types
+# Interface: https://beta.pokeapi.co/graphql/console/
+query samplePokeAPIquery {
+  pokemon: pokemon_v2_pokemon {
+    pokemon_v2_pokemontypes {
+      pokemon_v2_type {
+        name
+      }
+    }
+    name
+    id
+  }
+}

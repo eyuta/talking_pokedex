@@ -1,11 +1,34 @@
-import { pokemonList } from "@/data/dist/pokemonList";
+import { makeStyles } from "@material-ui/core/styles";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import Typography from "@material-ui/core/Typography";
+import VolumeUpRoundedIcon from "@material-ui/icons/VolumeUpRounded";
+import Button from "@material-ui/core/Button";
 
-import { Heading, Image, Box, Center } from "@chakra-ui/react";
-import { Howl } from "howler";
 import { getGridSize } from "@/utils/useWindowDimensions";
-import { useState } from "react";
+import React, { useState } from "react";
+import { usePokemonItem } from "@/utils/usePokemonTypeMapping";
+import { Avatar, Grid } from "@material-ui/core";
 
-const getImagePath = (filename: string) => `/pokemonImages/475/webp/${filename}.webp`;
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: "flex",
+  },
+  details: {
+    display: "flex",
+    flexDirection: "column",
+  },
+  content: {
+    flex: "1 0 auto",
+  },
+  cover: {
+    width: "40%",
+  },
+  small: {
+    width: theme.spacing(3),
+    height: theme.spacing(3),
+  },
+}));
 
 const Item = ({
   columnIndex,
@@ -17,48 +40,67 @@ const Item = ({
   style: object;
 }) => {
   const index = rowIndex * getGridSize().columnCount + columnIndex + 1;
-  const filename = String(index).padStart(3, "0");
-  const pokemon = pokemonList[index - 1];
-  const name = pokemon ? pokemon.name_ja : "";
 
+  const pokemonItem = usePokemonItem(index);
   const [playing, setPlaying] = useState(false);
+  const classes = useStyles();
+
   const playSound = async () => {
     if (playing) return;
     setPlaying(true);
-    await speech(filename);
+    await pokemonItem?.speech?.();
     setPlaying(false);
   };
 
   return (
     <div style={style}>
-      <Box w="100%" onClick={playSound}>
-        {pokemon ? (
-          <Image
-            src={getImagePath(filename)}
-            alt={name}
-            width={"100%"}
-            height={"auto"}
-          />
+      <Card className={classes.root}>
+        {pokemonItem.name ? (
+          <>
+            <img
+              onClick={playSound}
+              className={classes.cover}
+              alt={pokemonItem.name}
+              height="100%"
+              src={pokemonItem.imagePath}
+            />
+            <div className={classes.details}>
+              <CardContent className={classes.content}>
+                <Button onClick={playSound}>
+                  <Typography component="h5" variant="h5">
+                    <Grid container direction="row" alignItems="center">
+                      {pokemonItem.name}
+                      <VolumeUpRoundedIcon fontSize="large" />
+                    </Grid>
+                  </Typography>
+                </Button>
+
+                <Typography variant="subtitle1" color="textSecondary">
+                  {pokemonItem.types?.map((t) => (
+                    <Grid
+                      onClick={t.speech}
+                      container
+                      direction="row"
+                      alignItems="center"
+                    >
+                      <Avatar
+                        alt={t.name_ja}
+                        src={t.imagePath}
+                        className={classes.small}
+                      />
+                      {t.name_ja}
+                    </Grid>
+                  ))}
+                </Typography>
+              </CardContent>
+            </div>
+          </>
         ) : (
           <></>
         )}
-        <Center>
-          <Heading mb={6}>{name}</Heading>
-        </Center>
-      </Box>
+      </Card>
     </div>
   );
 };
-
-const speech = (filename: string) =>
-  new Promise<void>((resolve) => {
-    new Howl({
-      src: [`/pron/pokemon/${filename}.mp3`],
-      autoplay: true,
-      onend() {
-        resolve();
-      },
-    });
-  });
 
 export default Item;
