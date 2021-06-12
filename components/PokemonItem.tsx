@@ -53,7 +53,7 @@ const Item = ({
 const speech = (filename: string) =>
   new Promise<void>((resolve) => {
     new Howl({
-      src: [`/pron/${filename}.mp3`],
+      src: [`/pron/pokemon/${filename}.mp3`],
       autoplay: true,
       onend() {
         resolve();
