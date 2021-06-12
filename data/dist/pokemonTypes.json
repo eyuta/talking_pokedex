@@ -1,0 +1,92 @@
+[
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/2/22/GO_Normal.png",
+    "name_ja": "ノーマル",
+    "name_en": "Normal"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/1/1e/GO_Fighting.png",
+    "name_ja": "かくとう",
+    "name_en": "Fighting"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/8/87/GO_Flying.png",
+    "name_ja": "ひこう",
+    "name_en": "Flying"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/f/ff/GO_Poison.png",
+    "name_ja": "どく",
+    "name_en": "Poison"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/2/21/GO_Ground.png",
+    "name_ja": "じめん",
+    "name_en": "Ground"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/1/11/GO_Rock.png",
+    "name_ja": "いわ",
+    "name_en": "Rock"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/9/94/GO_Bug.png",
+    "name_ja": "むし",
+    "name_en": "Bug"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/a/a1/GO_Ghost.png",
+    "name_ja": "ゴースト",
+    "name_en": "Ghost"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/d/d2/GO_Steel.png",
+    "name_ja": "はがね",
+    "name_en": "Steel"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/0/0e/GO_Fire.png",
+    "name_ja": "ほのお",
+    "name_en": "Fire"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/a/aa/GO_Water.png",
+    "name_ja": "みず",
+    "name_en": "Water"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/6/61/GO_Grass.png",
+    "name_ja": "くさ",
+    "name_en": "Grass"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/4/4a/GO_Electric.png",
+    "name_ja": "でんき",
+    "name_en": "Electric"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/f/f2/GO_Psychic.png",
+    "name_ja": "エスパー",
+    "name_en": "Psychic"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/c/c6/GO_Ice.png",
+    "name_ja": "こおり",
+    "name_en": "Ice"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/9/90/GO_Dragon.png",
+    "name_ja": "ドラゴン",
+    "name_en": "Dragon"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/7/73/GO_Dark.png",
+    "name_ja": "あく",
+    "name_en": "Dark"
+  },
+  {
+    "src": "https://cdn2.bulbagarden.net/upload/a/ae/GO_Fairy.png",
+    "name_ja": "フェアリー",
+    "name_en": "Fairy"
+  }
+]
