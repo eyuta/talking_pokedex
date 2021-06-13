@@ -28,6 +28,10 @@ const useStyles = makeStyles((theme) => ({
     width: theme.spacing(3),
     height: theme.spacing(3),
   },
+  icon: {
+    marginRight: 5,
+    marginLeft: 5,
+  },
 }));
 
 const Item = ({
@@ -70,29 +74,25 @@ const Item = ({
                   <Typography component="h5" variant="h5">
                     <Grid container direction="row" alignItems="center">
                       {pokemonItem.name}
-                      <VolumeUpRoundedIcon fontSize="large" />
+                      <VolumeUpRoundedIcon className={classes.icon} />
                     </Grid>
                   </Typography>
                 </Button>
 
-                <Typography variant="subtitle1" color="textSecondary">
-                  {pokemonItem.types?.map((t, i) => (
-                    <Grid
-                      key={i}
-                      onClick={t.speech}
-                      container
-                      direction="row"
-                      alignItems="center"
-                    >
-                      <Avatar
-                        alt={t.name_ja}
-                        src={t.imagePath}
-                        className={classes.small}
-                      />
-                      {t.name_ja}
-                    </Grid>
-                  ))}
-                </Typography>
+                {pokemonItem.types?.map((t, i) => (
+                  <Typography variant="subtitle1" color="textSecondary" key={i}>
+                    <Button onClick={t.speech}>
+                      <Grid container direction="row" alignItems="center">
+                        <Avatar
+                          alt={t.name_ja}
+                          src={t.imagePath}
+                          className={[classes.small, classes.icon].join(" ")}
+                        />
+                        {t.name_ja}
+                      </Grid>
+                    </Button>
+                  </Typography>
+                ))}
               </CardContent>
             </div>
           </>
