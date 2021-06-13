@@ -21,9 +21,13 @@ const getImagePath = (filename: string) =>
 const toUpperLetterCase = (str: string) => str[0].toUpperCase() + str.slice(1);
 
 const getTypes = (name: string) => {
-  const pokemon = pokemonTypeMapping.data.pokemon.find(
-    (pokemon) => pokemon.name.toLowerCase() === name.toLowerCase()
-  );
+  const pokemon =
+    pokemonTypeMapping.data.pokemon.find(
+      (pokemon) => pokemon.name.toLowerCase() === name.toLowerCase()
+    ) ||
+    pokemonTypeMapping.data.pokemon.find(
+      (pokemon) => pokemon.name.toLowerCase().includes(name.toLowerCase())
+    );
   if (!pokemon) return [];
   return pokemon.pokemon_v2_pokemontypes.map((type) => {
     const pokemonType = pokemonTypes.find(
