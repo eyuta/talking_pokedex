@@ -76,8 +76,9 @@ const Item = ({
                 </Button>
 
                 <Typography variant="subtitle1" color="textSecondary">
-                  {pokemonItem.types?.map((t) => (
+                  {pokemonItem.types?.map((t, i) => (
                     <Grid
+                      key={i}
                       onClick={t.speech}
                       container
                       direction="row"
