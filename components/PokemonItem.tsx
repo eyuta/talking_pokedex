@@ -11,7 +11,8 @@ import { usePokemonItem } from "@/utils/usePokemonTypeMapping";
 import { Avatar, Grid } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
+  card: {
+    margin: 2,
     display: "flex",
   },
   details: {
@@ -21,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   content: {
     flex: "1 0 auto",
   },
-  cover: {
+  image: {
     width: "40%",
   },
   small: {
@@ -58,12 +59,12 @@ const Item = ({
 
   return (
     <div style={style}>
-      <Card className={classes.root}>
+      <Card className={classes.card}>
         {pokemonItem.name ? (
           <>
             <img
               onClick={playSound}
-              className={classes.cover}
+              className={classes.image}
               alt={pokemonItem.name}
               height="100%"
               src={pokemonItem.imagePath}
