@@ -1,21 +1,10 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Root.module.css";
 
-// import Pokedex from "pokedex-promise-v2";
-// import { Pokemon } from "../pokedex-promise-v2.types";
-import { pokemonList } from "@/data/dist/pokemonList";
-
-import AutoSizer from "react-virtualized-auto-sizer";
-import { FixedSizeGrid as Grid } from "react-window";
-
-import { Heading, Center } from "@chakra-ui/react";
-import PokemonItem from "@/components/PokemonItem";
-import { getGridSize } from "@/utils/useWindowDimensions";
+import PokemonGrid from '@/components/PokemonGrid'
 import Head from "@/components/Head";
+import AppBar from '@/components/AppBar'
 
-const pokemonCount = pokemonList.length;
-
-export default function Home() {
-  const { columnCount, columnWidth, rowHeight } = getGridSize();
+export default function Root() {
   return (
     <div className={styles.container}>
       <Head
@@ -25,23 +14,8 @@ export default function Home() {
         url={process.env.NEXT_PUBLIC_HOST}
       />
       <main className={styles.main}>
-        <Center>
-          <Heading mb={5}>ポケモンをクリック！</Heading>
-        </Center>
-        <AutoSizer>
-          {({ height, width }) => (
-            <Grid
-              columnCount={columnCount}
-              columnWidth={columnWidth}
-              height={height}
-              rowCount={Math.ceil(pokemonCount / columnCount)}
-              rowHeight={rowHeight}
-              width={width}
-            >
-              {PokemonItem}
-            </Grid>
-          )}
-        </AutoSizer>
+        <AppBar />
+        <PokemonGrid />
       </main>
     </div>
   );
