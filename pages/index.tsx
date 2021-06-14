@@ -1,8 +1,8 @@
 import styles from "../styles/Root.module.css";
 
-import PokemonGrid from '@/components/PokemonGrid'
+import PokemonGrid from "@/components/PokemonGrid";
 import Head from "@/components/Head";
-import AppBar from '@/components/AppBar'
+import AppBar from "@/components/AppBar";
 
 export default function Root() {
   return (
