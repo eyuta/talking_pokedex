@@ -22,6 +22,10 @@ const useStyles = makeStyles((theme) => ({
   content: {
     flex: "1 0 auto",
   },
+  index: {
+    paddingLeft: "8px",
+    lineHeight: 1,
+  },
   image: {
     width: "40%",
   },
@@ -71,6 +75,13 @@ const Item = ({
             />
             <div className={classes.details}>
               <CardContent className={classes.content}>
+                <Typography
+                  variant="caption"
+                  display="block"
+                  className={classes.index}
+                >
+                  #{index}
+                </Typography>
                 <Button onClick={playSound}>
                   <Typography component="h5" variant="h5">
                     <Grid container direction="row" alignItems="center">
