@@ -1,5 +1,7 @@
 import styles from "../styles/Root.module.css";
 
+import Typography from "@material-ui/core/Typography";
+
 import PokemonGrid from "@/components/PokemonGrid";
 import Head from "@/components/Head";
 import AppBar from "@/components/AppBar";
@@ -16,6 +18,14 @@ export default function Root() {
       <main className={styles.main}>
         <AppBar />
         <PokemonGrid />
+        <Typography
+          variant="caption"
+          display="block"
+          align="center"
+          gutterBottom
+        >
+          Pokémon images & names © 1995-2021 Nintendo/Game Freak.
+        </Typography>
       </main>
     </div>
   );
